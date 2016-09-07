@@ -1,0 +1,77 @@
+package com.kofotolios.supermarkets.adapters;
+
+import android.content.Context;
+import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.kofotolios.supermarkets.R;
+import com.kofotolios.supermarkets.activities.CartActivity;
+import com.kofotolios.supermarkets.activities.LauncherActivity;
+import com.kofotolios.supermarkets.models.Product;
+import com.squareup.picasso.Picasso;
+
+
+import org.w3c.dom.Text;
+
+import java.util.ArrayList;
+
+/**
+ * Created by Cooper on 21/7/2016.
+ */
+
+/**
+ * 1. INFLATE CATEGORY LAYOUT
+ * 2. BIND DATA TO GRIDVIEW
+ */
+public class CartAdapter extends BaseAdapter {
+    Context c;
+    ArrayList<Product> cartProducts;
+
+    public CartAdapter(Context c, ArrayList<Product> cartProducts) {
+        this.c = c;
+        this.cartProducts = cartProducts;
+    }
+
+    @Override
+    public int getCount() {
+        return cartProducts.size();
+    }
+
+    @Override
+    public Object getItem(int i) {
+        return cartProducts.get(i);
+    }
+
+    @Override
+    public long getItemId(int i) {
+        return i;
+    }
+
+    @Override
+    public View getView(int i, View view, ViewGroup viewGroup) {
+
+        if(view == null)
+        {
+            view = LayoutInflater.from(c).inflate(R.layout.cart_item, viewGroup, false);
+        }
+
+        TextView tvCartName = (TextView) view.findViewById(R.id.tvCartName);
+        TextView tvCartPrice = (TextView) view.findViewById(R.id.tvCartPrice);
+        ImageView ivCartPhoto = (ImageView) view.findViewById(R.id.ivCartPhoto);
+
+        Product product = (Product) this.getItem(i);
+
+        tvCartName.setText(product.getName());
+        tvCartPrice.setText(Double.toString(product.getPriceInStore()));
+        Picasso.with(c).load(LauncherActivity.globalImageUrl+product.getStorePhoto()).into(ivCartPhoto);
+
+        return view;
+    }
+}

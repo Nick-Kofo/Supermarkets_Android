@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">SuperMarkets</string>
+    <string name="action_home">Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_cart">Cart</string>
+    <string name="action_account">Account</string>
+    <string name="connection">Connection</string>
+    <string name="downloading">Downloading data please wait...</string>
+    <string name="parsing">Parsing data please wait...</string>
+    <string name="parsing_error">Unable to parse data from server</string>
+    <string name="coordinates">Coordinates.</string>
+    <string name="getting_coordinates">Getting current coordinates.</string>
+    <string name="best_price">Best Price</string>
+    <string name="categories">Categories</string>
+    <string name="subCategories">SubCategories</string>
+    <string name="products">Products</string>
+    <string name="productsInStores">Products In Stores</string>
+    <string name="settings">Settings</string>
+    <string name="gps_enable_question">Your GPS seems to be disabled, do you want to enable it?</string>
+    <string name="settings_distance">Maximum distance of near super markets.</string>
+    <string name="find_products">Find Products</string>
+    <string name="barcode_scanner">Barcode Scanner</string>
+    <string name="barcode_not_found">Barcode not found</string>
+    <string name="barcode_not_scanned">Barcode not scanned</string>
+    <string name="loading_cart">Loading Cart</string>
+    <string name="cart_empty">Cart is empty</string>
+    <string name="added_to_cart">Product added to cart</string>
+    <string name="total_price">Total Price: </string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="no_account_yet">No account yet? Create one</string>
+    <string name="already_member">Already a member? Login</string>
+    <string name="invalid_email">Enter a valid email address</string>
+    <string name="invalid_password">Password must not be empty</string>
+    <string name="login_failed">Login failed</string>
+    <string name="login_success">Login successful</string>
+    <string name="register_failed">Registration failed</string>
+    <string name="register_success">Registration successful</string>
+    <string name="welcome">Welcome:</string>
+    <string name="settings_user">All your settings preferences will be stored at your account.</string>
+    <string name="account">Account</string>
+    <string name="contact">Contact</string>
+    <string name="about">About</string>
+    <string name="contact_subject">Supermarkets</string>
+    <string name="contact_message">...</string>
+    <string name="choose_client">Choose email client</string>
+    <string name="about_message">Supermarkets prices comparison\nVersion 1.0\n\nThis application was developed for the purposes of the Master Science Informatics thesis for the Technological Education Institute of Central Macedonia at Greece.\n\nBy Nick Kofotolios</string>
+    <string name="barcode_dialog_message">Do you want to add a new product?</string>
+    <string name="add_product">Add Product</string>
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="next">Next</string>
+    <string name="fill_name">Please fill name</string>
+    <string name="fill_price">Please fill price</string>
+    <string name="fill_description">Please fill description</string>
+    <string name="fill_category">Please fill category</string>
+    <string name="fill_sub_category">Please fill sub-category</string>
+    <string name="fill_all_fields">Please fill all the fields</string>
+    <string name="product_store">Store of product</string>
+    <string name="choose_store">Choose the store of the product</string>
+    <string name="product_photo">Product photo</string>
+    <string name="capture_photo">Capture Photo</string>
+    <string name="add_product_to_store">Add product to store</string>
+    <string name="capture_photo_of_product">Please take a photo of the product</string>
+    <string name="failed_to_load_photo">Failed to load photo</string>
+    <string name="encoding_image">Encoding image please wait</string>
+    <string name="product_added">Product added successfully</string>
+    <string name="order_by_price">Watch order by price</string>
+    <string name="order_by_distance">Watch order by distance</string>
+
+    <string-array name="distance_options">
+        <item>Maximum distance of near super markets</item>
+        <item>No Limit</item>
+        <item>1000 meters</item>
+        <item>5000 meters</item>
+        <item>10000 meters</item>
+    </string-array>
+
+    <string-array name="categoryParent_options">
+        <item>Κατηγορία</item>
+        <item>Παντοπωλείο</item>
+        <item>Φρέσκο</item>
+        <item>Ψυγείο</item>
+        <item>Φροντίδα Σπιτιού</item>
+        <item>Ομορφιά - Υγεία</item>
+    </string-array>
+
+    <string-array name="categoryLevel1_options">
+        <item>Υποκατηγορία</item>
+        <item>Χυμοί - Αναψυκτικά</item>
+        <item>Μπύρες - Ποτά</item>
+        <item>Δημητριακά - Μπάρες</item>
+        <item>Ζυμαρικά - Σάλτσες</item>
+    </string-array>
+
+    <string-array name="categoryLevel2_options">
+        <item>Υποκατηγορία</item>
+        <item>Φρέσκο Κρέας</item>
+        <item>Φρέσκο Ψάρι</item>
+    </string-array>
+
+    <string-array name="categoryLevel3_options">
+        <item>Υποκατηγορία</item>
+        <item>Κατεψυγμένο Κρέας</item>
+        <item>Κατεψυγμένο Ψάρι</item>
+    </string-array>
+
+    <string-array name="categoryLevel4_options">
+        <item>Υποκατηγορία</item>
+        <item>Καθαρισμός Σπιτιού</item>
+        <item>Ηλεκτρικά Αναλώσιμα</item>
+    </string-array>
+
+    <string-array name="categoryLevel5_options">
+        <item>Υποκατηγορία</item>
+        <item>Φροντίδα Προσώπου</item>
+        <item>Φροντίδα Μαλλιών</item>
+    </string-array>
+
+</resources>

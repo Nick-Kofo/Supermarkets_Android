@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">SuperMarkets</string>
+    <string name="action_home">Αρχική</string>
+    <string name="action_settings">Επιλογές</string>
+    <string name="action_search">Αναζήτηση</string>
+    <string name="action_cart">Καλάθι</string>
+    <string name="action_account">Account</string>
+    <string name="connection">Σύνδεση</string>
+    <string name="downloading">Λήψη δεδομένων παρακαλώ περιμένετε</string>
+    <string name="parsing">Επεξεργασία δεδομένων παρακαλώ περιμένετε</string>
+    <string name="parsing_error">Δεν ήταν δυνατή η λήψη δεδομένων</string>
+    <string name="coordinates">Συντεταγμένες</string>
+    <string name="getting_coordinates">Αναζήτηση συντεταγμένων</string>
+    <string name="best_price">Best Price</string>
+    <string name="categories">Κατηγορίες</string>
+    <string name="subCategories">Υποκατηγορίες</string>
+    <string name="products">Προϊόντα</string>
+    <string name="productsInStores">Προϊόντα στα καταστήματα</string>
+    <string name="settings">Επιλογές</string>
+    <string name="gps_enable_question">Το GPS είναι απενεργοποιημένο. Θέλετε να το ενεργοποιήσετε;</string>
+    <string name="settings_distance">Μέγιστη απόσταση κοντινών supermarket</string>
+    <string name="find_products">Βρείτε προϊόντα</string>
+    <string name="barcode_scanner">Σκανάρισμα barcode</string>
+    <string name="barcode_not_found">Το barcode δεν βρέθηκε</string>
+    <string name="barcode_not_scanned">Το barcode δεν σκαναρήστηκε</string>
+    <string name="loading_cart">Φόρτωση καλαθιού</string>
+    <string name="cart_empty">Το καλάθι είναι άδειο</string>
+    <string name="added_to_cart">Το προϊόν προστέθηκε στο καλάθι</string>
+    <string name="total_price">Συνολική τιμή: </string>
+    <string name="email">Email</string>
+    <string name="password">Κωδικός</string>
+    <string name="login">Σύνδεση</string>
+    <string name="register">Εγγραφή</string>
+    <string name="no_account_yet">Δεν έχετε λογαριασμό; Δημιουργείστε έναν</string>
+    <string name="already_member">Είστε μέλος; Σύνδεση</string>
+    <string name="invalid_email">Εισάγετε σωστό email</string>
+    <string name="invalid_password">Ο κωδικός πρέπει να συμπληρωθεί</string>
+    <string name="login_failed">Η σύνδεση απέτυχε</string>
+    <string name="login_success">Η σύνδεση ήταν επιτυχής</string>
+    <string name="register_failed">Η εγγραφή απέτυχε</string>
+    <string name="register_success">Η εγγραφή ήταν επιτυχής</string>
+    <string name="welcome">Καλώς ήρθατε:</string>
+    <string name="settings_user">Όλες η επιλογές σας αποθηκεύονται στο λογαριασμό σας</string>
+    <string name="account">Λογαριασμός</string>
+    <string name="contact">Επικοινωνία</string>
+    <string name="about">Σχετικά</string>
+    <string name="contact_subject">Supermarkets</string>
+    <string name="contact_message">...</string>
+    <string name="choose_client">Διαλέξτε εφαρμογή για αποστολή email</string>
+    <string name="about_message">Supermarkets prices comparison\nΈκδοση 1.0\n\nΗ εφαρμογή αναπτύχθηκε ώς διπλωματική εργασία για το μεταπτυχιακό Εφαρμοσμένη Πληροφορική του ΤΕΙ Κεντρικής Μακεδονίας.\n\nΑπό τον Νίκο Κοφοτόλιο.</string>
+    <string name="barcode_dialog_message">Θέλετε να προσθέσετε καινούριο προϊόν;</string>
+    <string name="add_product">Πρόσθεση προϊόντος</string>
+    <string name="name">Όνομα</string>
+    <string name="price">Τιμή</string>
+    <string name="description">Περιγραφή</string>
+    <string name="next">Επόμενο</string>
+    <string name="fill_name">Παρακαλώ συμπληρώστε όνομα</string>
+    <string name="fill_price">Παρακαλώ συμπληρώστε τιμή</string>
+    <string name="fill_description">Παρακαλώ συμπληρώστε περιγραφή</string>
+    <string name="fill_category">Παρακαλώ συμπληρώστε κατηγορία</string>
+    <string name="fill_sub_category">Παρακαλώ συμπληρώστε υποκατηγορία</string>
+    <string name="fill_all_fields">Παρακαλώ συμπληρώστε όλα τα πεδία</string>
+    <string name="product_store">Κατάστημα προϊόντος</string>
+    <string name="choose_store">Διαλέξτε κατάστημα προϊόντος</string>
+    <string name="product_photo">Φωτογραφία προϊόντος</string>
+    <string name="capture_photo">Βγάλτε φωτογραφία</string>
+    <string name="add_product_to_store">Προσθέστε το προϊόν στο κατάστημα</string>
+    <string name="capture_photo_of_product">Παρακαλώ βγάλτε φωτογραφία το προϊόν</string>
+    <string name="failed_to_load_photo">Η φόρτωση της εικόνας απέτυχε</string>
+    <string name="encoding_image">Επεξεργασία εικόνας παρακαλώ περιμένετε</string>
+    <string name="product_added">Το προϊόν προστέθηκε με επιτυχία</string>
+    <string name="order_by_price">Δείτε ταξινόμηση ανά τιμή</string>
+    <string name="order_by_distance">Δείτε ταξινόμηση ανά απόσταση</string>
+
+    <string-array name="distance_options">
+        <item>Μέγιστη απόσταση κοντινών supermarket</item>
+        <item>Απεριόριστη</item>
+        <item>1000 μέτρα</item>
+        <item>5000 μέτρα</item>
+        <item>10000 μέτρα</item>
+    </string-array>
+
+    <string-array name="categoryParent_options">
+        <item>Κατηγορία</item>
+        <item>Παντοπωλείο</item>
+        <item>Φρέσκο</item>
+        <item>Ψυγείο</item>
+        <item>Φροντίδα Σπιτιού</item>
+        <item>Ομορφιά - Υγεία</item>
+    </string-array>
+
+    <string-array name="categoryLevel1_options">
+        <item>Υποκατηγορία</item>
+        <item>Χυμοί - Αναψυκτικά</item>
+        <item>Μπύρες - Ποτά</item>
+        <item>Δημητριακά - Μπάρες</item>
+        <item>Ζυμαρικά - Σάλτσες</item>
+    </string-array>
+
+    <string-array name="categoryLevel2_options">
+        <item>Υποκατηγορία</item>
+        <item>Φρέσκο Κρέας</item>
+        <item>Φρέσκο Ψάρι</item>
+    </string-array>
+
+    <string-array name="categoryLevel3_options">
+        <item>Υποκατηγορία</item>
+        <item>Κατεψυγμένο Κρέας</item>
+        <item>Κατεψυγμένο Ψάρι</item>
+    </string-array>
+
+    <string-array name="categoryLevel4_options">
+        <item>Υποκατηγορία</item>
+        <item>Καθαρισμός Σπιτιού</item>
+        <item>Ηλεκτρικά Αναλώσιμα</item>
+    </string-array>
+
+    <string-array name="categoryLevel5_options">
+        <item>Υποκατηγορία</item>
+        <item>Φροντίδα Προσώπου</item>
+        <item>Φροντίδα Μαλλιών</item>
+    </string-array>
+
+
+</resources>

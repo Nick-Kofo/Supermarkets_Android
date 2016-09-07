@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.ProductsInStoresByDistanceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <Button
+            android:id="@+id/btOrderByPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:drawableLeft="@drawable/ic_euro_action"
+            android:text="@string/order_by_price"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+
+        <include layout="@layout/content_productsinstoresbydistance" />
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
